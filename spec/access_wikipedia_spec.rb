@@ -52,7 +52,7 @@ describe "access wikipedia" do
     driver.start
 
     driver.selenium_webdriver do
-      get "http://www.wikipedia.org"
+      get config[:webapp_url]
 
       expect(find_element(:id, 'www-wikipedia-org')).not_to be_nil
 
@@ -78,7 +78,7 @@ describe "access wikipedia" do
     driver.start
 
     driver.watir_webdriver do
-      goto 'www.wikipedia.org'
+      goto config[:webapp_url]
 
       expect(element(:id => 'www-wikipedia-org')).not_to be_nil
 
