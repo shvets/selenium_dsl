@@ -30,7 +30,7 @@
     <file path="/spec_helper.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361027403358" ignored="false" />
     <file path="/access_webapp_spec.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1360796014103" ignored="false" />
     <file path="/fragment.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361025430384" ignored="false" />
-    <file path="/Dummy.txt" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361028862986" ignored="false" />
+    <file path="/Dummy.txt" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361028874857" ignored="false" />
     <file path="/dsl.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361027827376" ignored="false" />
     <file path="$USER_HOME$/work/ui/src/Gemfile.lock" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1360945074826" ignored="false" />
     <file path="$USER_HOME$/work/ui/src/spec/acceptance/selenium/support/plan_page_steps.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1360948806603" ignored="false" />
@@ -58,7 +58,7 @@
       <file leaf-file-name="access_wikipedia_spec.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/access_wikipedia_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="90" column="35" selection-start="2210" selection-end="2210" vertical-scroll-proportion="-1.6681887">
+            <state line="188" column="23" selection-start="4649" selection-end="4649" vertical-scroll-proportion="0.71841705">
               <folding />
             </state>
           </provider>
@@ -854,7 +854,11 @@
       <created>1361028869576</created>
       <updated>1361028869576</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="redesign">
+      <created>1361028875852</created>
+      <updated>1361028875852</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1060,7 +1064,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/access_wikipedia_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="35" selection-start="2210" selection-end="2210" vertical-scroll-proportion="-1.6681887">
+        <state line="188" column="23" selection-start="4649" selection-end="4649" vertical-scroll-proportion="0.71841705">
           <folding />
         </state>
       </provider>
