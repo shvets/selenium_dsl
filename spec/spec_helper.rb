@@ -32,13 +32,6 @@ share_examples_for :SeleniumTest do
     stop_selenium_server
   end
 
-  #before :each do
-  #  start_new_session
-  #end
-  #
-  #after :each do
-  #  close_session
-  #end
 end
 
 def start_selenium_server
