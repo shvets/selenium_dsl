@@ -1,35 +1,35 @@
 require 'selenium_dsl/proxy'
 
-module SeleniumDSL
-  class Script < Proxy
+module SeleniumDSL::SeleniumClient
+  class Script < SeleniumDSL::Proxy
+    attr_reader :selenium, :driver
 
-    def initialize selenium_driver, timeout_in_seconds
-      super selenium_driver, [:open, :select, :type]
+    attr_accessor :timeout_in_seconds
 
-      @page = selenium_driver
-      @timeout_in_seconds = timeout_in_seconds
-    end
+    def initialize selenium, driver
+      super selenium, [:open, :select, :type]
 
-    def timeout_in_seconds
-      @timeout_in_seconds
+      @selenium = selenium
+      @driver = driver
+      @timeout_in_seconds = 60
     end
 
     def click locator, *params
-      @page.click locator, *params
+      selenium.click locator, *params
 
       if params.size > 0
-        @page.wait_for_condition "selenium.browserbot.getCurrentWindow().jQuery.active == 0" if params[0][:ajax] == true
+        selenium.wait_for_condition "selenium.browserbot.getCurrentWindow().jQuery.active == 0" if params[0][:ajax]
 
-        @page.wait_for_page_to_load @timeout_in_seconds if params[0][:wait] == true
+        selenium.wait_for_page_to_load @timeout_in_seconds if params[0][:wait]
       end
     end
 
 # def select_value value, element, prefix
-# @page.select "#{prefix}_#{element}", "value=#{value}"
+# selenium.select "#{prefix}_#{element}", "value=#{value}"
 # end
 
     def check_select value, element, prefix
-      @page.click full_input_name(prefix, element)
+      selenium.click full_input_name(prefix, element)
     end
 
     def full_input_name(prefix, input_name)
@@ -37,23 +37,23 @@ module SeleniumDSL
     end
 
     def session_id
-      /session_id=(\w+)/.match(@page.get_cookie)[1]
+      /session_id=(\w+)/.match(selenium.get_cookie)[1]
     end
 
 # def enter value, element, prefix
-# @page.type "#{prefix}_#{element}", value
+# selenium.type "#{prefix}_#{element}", value
 # end
 
     def radio_select value, element, prefix
       if prefix.nil?
-        @page.click "id=#{value}"
+        selenium.click "id=#{value}"
       else
-        @page.click "#{prefix}_#{element}_#{value}"
+        selenium.click "#{prefix}_#{element}_#{value}"
       end
     end
 
     def go_back
-      @page.go_back
+      selenium.go_back
     end
 
 # def new_session(path)
@@ -61,16 +61,16 @@ module SeleniumDSL
 # end
 
 # def goto path
-# @page.open path
+# selenium.open path
 # end
 
 # def reset_session
-# @page.delete_cookie('_proteus_session', '/')
-# @page.delete_cookie('login', '/')
+# selenium.delete_cookie('_proteus_session', '/')
+# selenium.delete_cookie('login', '/')
 # end
 
 # def select_value value, element, prefix
-# @page.select "#{prefix}_#{element}", "value=#{value}"
+# selenium.select "#{prefix}_#{element}", "value=#{value}"
 # end
 
     def wait_for_text value, element_id, timeout=10000
@@ -80,7 +80,7 @@ var included = false;
 if (element.value == '#{value}') included = true;
 included;
       EOF
-      @page.wait_for_condition(script, timeout)
+      selenium.wait_for_condition(script, timeout)
     end
 
     def wait_for_option(value, element, prefix, timeout=30000)
@@ -100,11 +100,11 @@ if( option_list[x].value == '#{value}' ) included = true;
 included;
       EOF
 
-      @page.wait_for_condition(script, timeout)
+      selenium.wait_for_condition(script, timeout)
     end
 
     def wait_until_enabled( element_id, timeout=10000)
-      @page.wait_for_condition(
+      selenium.wait_for_condition(
           "selenium.browserbot.getCurrentWindow()." +
               "document.getElementById('#{element_id}').disabled == false;",
           timeout
@@ -112,7 +112,7 @@ included;
     end
 
 # def assert_title(expected_value)
-# assert_equal expected_value, @page.get_title, "Expected title to be: '#{expected_value}' but was '#{@page.get_title}'"
+# assert_equal expected_value, selenium.get_title, "Expected title to be: '#{expected_value}' but was '#{selenium.get_title}'"
 # end
 #
 # def assert_contains text, message=nil
@@ -124,20 +124,20 @@ included;
 # end
 #
 # def assert_value(expected_value, element)
-# assert_equal expected_value, @page.get_value(element)
+# assert_equal expected_value, selenium.get_value(element)
 # end
 
     def contains? text
-      /#{text}/ =~ @page.get_html_source
+      /#{text}/ =~ selenium.get_html_source
     end
 
 # def assert_selected value, element, prefix
 # id = prefix.blank? ? "#{element}" : "#{prefix}[#{element}]"
-# assert_equal value, @page.get_selected_value("#{id}")
+# assert_equal value, selenium.get_selected_value("#{id}")
 # end
 
     def match_element id
-      Regexp.new("<([^>]*)(id *= *['\"]?#{id}['\"]?)([^>]*)>", Regexp::IGNORECASE).match(@page.get_html_source)
+      Regexp.new("<([^>]*)(id *= *['\"]?#{id}['\"]?)([^>]*)>", Regexp::IGNORECASE).match(selenium.get_html_source)
     end
 
     def visible? element
@@ -187,11 +187,11 @@ included;
     end
 
     def response_body
-      @page.get_html_source
+      selenium.get_html_source
     end
 
     def text_for id
-      @page.get_text(id)
+      selenium.get_text(id)
     end
 
   end

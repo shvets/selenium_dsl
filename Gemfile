@@ -1,6 +1,8 @@
 source :rubygems
 
-gem "selenium-client"
+#gem "selenium-client"
+gem "selenium-webdriver"
+gem "selenium"
 
 group :development do
   gem "gemspec_deps_gen"
@@ -12,6 +14,10 @@ group :test do
   gem "rspec-core"
   gem "rspec-expectations"
   gem "mocha"
+  gem "watir-webdriver"
+  #gem "capybara"
+  gem "capybara", "1.1.4"
+  gem "capybara-webkit", "0.8.0"
 end
 
 group :debug do

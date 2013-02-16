@@ -1,54 +1,216 @@
-# access_webapp_spec.rb
+# encoding: utf-8
 
 require File.expand_path(File.dirname(__FILE__) + '/spec_helper')
 
 describe "access wikipedia" do
 
-  it_should_behave_like :SeleniumTest do
-    before :all do
-      config = load_configuration
+  it "should submit the request with selenium-client" do
+    start_selenium_server
 
-      puts "Application: #{config['webapp_url']}"
-      puts "Selenium: #{config['selenium_server_address']}:#{config['selenium_server_port']}"
+    config = load_configuration
 
-      init_selenium(config['selenium_server_address'], config['selenium_server_port'].to_i,
-                    config['selenium_browser_key'], config['webapp_url'], config['timeout_in_seconds'])
+    puts "Application: #{config[:webapp_url]}"
+    puts "Selenium: #{config[:selenium_host]}:#{config[:selenium_port]}"
+
+    driver = SeleniumDSL::SeleniumClient::DSL.new(
+        config[:selenium_host], config[:selenium_port], config[:browser], config[:webapp_url])
+
+    driver.timeout_in_seconds = config['timeout_in_seconds']
+
+    driver.start
+
+    driver.selenium_client do
+      open "/"
+
+      is_text_present("The Free Encyclopedia").should be_true
+
+      type "searchInput", "iphone"
+
+      click "go", :wait => true
+
+      is_text_present("iPhone").should be_true
     end
 
-    it "should submit the request" do
-      selenium do
-        open "/"
+    driver.stop
 
-        is_text_present("The Free Encyclopedia").should be_true
+    stop_selenium_server
+  end
 
-        type "searchInput", "iphone"
+  it "should submit the request with selenium webdriver" do
+    start_selenium_server
 
-        click "go", :wait => true
+    config = load_configuration
 
-        is_text_present("iPhone").should be_true
-      end
+    puts "Application: #{config[:webapp_url]}"
+    puts "Selenium: #{config[:selenium_host]}:#{config[:selenium_port]}"
 
+    driver = SeleniumDSL::SeleniumWebdriver::DSL.new(
+        config[:selenium_host], config[:selenium_port], config[:browser])
+
+    driver.timeout_in_seconds = config['timeout_in_seconds']
+
+    driver.start
+
+    driver.selenium_webdriver do
+      get "http://www.wikipedia.org"
+
+      expect(find_element(:id, 'www-wikipedia-org')).not_to be_nil
+
+      find_element(:id, 'searchInput').send_keys("iphone")
+
+      find_element(:name, 'go').click
+
+      wait_until_enabled 'content'
+
+      expect(find_element(:id, 'content').text).to match /iPhone/
     end
+
+    driver.stop
+
+    stop_selenium_server
+  end
+
+  it "should submit the request with watir webdriver" do
+    config = load_configuration
+
+    driver = SeleniumDSL::WatirWebdriver::DSL.new(config[:browser])
+
+    driver.start
+
+    driver.watir_webdriver do
+      goto 'www.wikipedia.org'
+
+      expect(element(:id => 'www-wikipedia-org')).not_to be_nil
+
+      text_field(:id => 'searchInput').set("iphone")
+
+      button(:name => 'go').click
+
+      # todo: 1. how to wait?
+      # todo  2. how to use selenium?
+      # todo  3. how to use remote selenium?
+
+      #wait = Selenium::WebDriver::Wait.new(:timeout => 10) # seconds
+      #wait.until {
+      #  driver.find_element(:id, 'content')
+      #}
+
+      expect(element(:id, 'content').text).to match /iPhone/
+
+      expect(url).to eq "http://en.wikipedia.org/wiki/Iphone"
+    end
+
+    driver.stop
+  end
+
+  it "should submit the request with capybara and webkit" do
+    config = load_configuration
+
+    driver = SeleniumDSL::Capybara::DSL.new(
+        config[:selenium_host], config[:selenium_port], config[:browser], config[:webapp_url], :webkit)
+
+    driver.start
+
+    driver.capybara do
+      visit '/'
+
+      text.should =~ /The Free Encyclopedia/
+
+      expect(find('#www-wikipedia-org')).not_to be_nil
+
+      fill_in 'searchInput', :with => 'iphone.com'
+      click_button '  →  '
+
+      ## todo: how to wait?
+      ##wait = Selenium::WebDriver::Wait.new(:timeout => 10) # seconds
+      ##wait.until {
+      ##  driver.find_element(:id, 'content')
+      ##}
+
+      expect(find('#content').text).to match /iPhone/
+
+      # "http://en.wikipedia.org/wiki/Special:Search?search=iphone.com&go=Go"
+      #expect(page.current_url).to eq "http://en.wikipedia.org/wiki/Iphone"
+
+      # save_and_open_page
+    end
+
+    driver.stop
+  end
+
+  it "should submit the request with capybara and selenium" do
+    start_selenium_server
+
+    config = load_configuration
+
+    driver = SeleniumDSL::Capybara::DSL.new(
+        config[:selenium_host], config[:selenium_port], config[:browser], config[:webapp_url], :selenium)
+
+    driver.start
+
+    driver.capybara do
+      visit '/'
+
+      text.should =~ /The Free Encyclopedia/
+
+      expect(find('#www-wikipedia-org')).not_to be_nil
+
+      fill_in 'searchInput', :with => 'iphone.com'
+      click_button '  →  '
+
+      ## todo: how to wait?
+      # todo: how to execute remote selenium?
+
+      ##wait = Selenium::WebDriver::Wait.new(:timeout => 10) # seconds
+      ##wait.until {
+      ##  driver.find_element(:id, 'content')
+      ##}
+
+      expect(find('#content').text).to match /iPhone/
+
+      # "http://en.wikipedia.org/wiki/Special:Search?search=iphone.com&go=Go"
+      #expect(page.current_url).to eq "http://en.wikipedia.org/wiki/Iphone"
+
+      # save_and_open_page
+    end
+
+    driver.stop
+
+    stop_selenium_server
   end
 
   private
 
   def load_configuration
-    config = {
-        'application_address' => 'www.wikipedia.org',
-        'application_port' => '80',
-        'application_name' => '',
-        'selenium_server_address' => 'localhost',
-        'selenium_server_port' => '4444',
-        'selenium_browser_key' => '*firefox',
-        'timeout_in_seconds' => 40
+    {
+      :webapp_url         => "http://www.wikipedia.org",
+
+      :selenium_host      => "localhost",
+      :selenium_port      => "4444",
+      :browser            => 'firefox',
+      :timeout_in_seconds => 40
     }
+  end
 
-    webapp_url = "http://#{config['application_address']}:#{config['application_port']}/#{config['application_name']}"
+  def start_selenium_server
+    Gem.loaded_specs["selenium"].version
 
-    config['webapp_url'] = webapp_url
+    require 'selenium'
 
-    config
+    version = Selenium::Starter::SELENIUM_SERVER_VERSION
+    selenium_server_standalone_jar = "#{ENV['HOME']}/.selenium/assets/selenium-#{version}/selenium-server-standalone-#{version}.jar"
+
+    if File.exist? selenium_server_standalone_jar
+      @server = Selenium::Server.new(selenium_server_standalone_jar, :background => true)
+      @server.start
+    else
+      puts "Selenium gem is not installed.Run: selenium install"
+    end
+  end
+
+  def stop_selenium_server
+    @server.stop if @server
+    @server = nil
   end
 
 end
