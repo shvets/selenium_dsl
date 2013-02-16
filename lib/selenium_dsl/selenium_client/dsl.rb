@@ -1,9 +1,12 @@
 require "selenium/client"
 require 'selenium_dsl/proxy'
+require 'selenium_dsl/selenium_helper'
 require 'selenium_dsl/selenium_client/script'
 
 module SeleniumDSL::SeleniumClient
   class DSL
+    include SeleniumHelper
+
     attr_reader :script, :driver
 
     def initialize(selenium_host, selenium_port, browser, webapp_url, capabilities={})
@@ -20,10 +23,6 @@ module SeleniumDSL::SeleniumClient
       @driver.capabilities.merge(capabilities) unless capabilities.empty?
 
       @script = SeleniumDSL::SeleniumClient::Script.new @selenium, @driver
-    end
-
-    def construct_selenium_url selenium_host, selenium_port
-      "http://#{selenium_host}:#{selenium_port}/wd/hub/"
     end
 
     def timeout_in_seconds= timeout_in_seconds
