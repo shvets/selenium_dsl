@@ -25,12 +25,11 @@ end
 
 share_examples_for :SeleniumTest do
   before :all do
-    #@server = Selenium::Server.new("#{ENV['HOME']}/.selenium/assets/selenium-2.28.0/selenium-server-standalone-2.28.0.jar", :background => true)
-    #@server.start
+    start_selenium_server
   end
 
   after :all do
-    #@server.stop
+    stop_selenium_server
   end
 
   #before :each do
@@ -40,4 +39,23 @@ share_examples_for :SeleniumTest do
   #after :each do
   #  close_session
   #end
+end
+
+def start_selenium_server
+  require 'selenium'
+
+  version = Selenium::Starter::SELENIUM_SERVER_VERSION
+  selenium_server_standalone_jar = "#{ENV['HOME']}/.selenium/assets/selenium-#{version}/selenium-server-standalone-#{version}.jar"
+
+  if File.exist? selenium_server_standalone_jar
+    @server = Selenium::Server.new(selenium_server_standalone_jar, :background => true)
+    @server.start
+  else
+    puts "Selenium gem is not installed.Run: selenium install"
+  end
+end
+
+def stop_selenium_server
+  @server.stop if @server
+  @server = nil
 end

@@ -15,12 +15,5 @@ module SeleniumDSL::Capybara
       @timeout_in_seconds = 60
     end
 
-    #def wait_until_enabled(id, timeout=10)
-    #  wait = ::Selenium::WebDriver::Wait.new(:timeout => timeout) # seconds
-    #  wait.until {
-    #    driver.find_element(:id, id)
-    #  }
-    #end
-
   end
 end

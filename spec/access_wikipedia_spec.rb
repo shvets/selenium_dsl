@@ -192,25 +192,4 @@ describe "access wikipedia" do
     }
   end
 
-  def start_selenium_server
-    Gem.loaded_specs["selenium"].version
-
-    require 'selenium'
-
-    version = Selenium::Starter::SELENIUM_SERVER_VERSION
-    selenium_server_standalone_jar = "#{ENV['HOME']}/.selenium/assets/selenium-#{version}/selenium-server-standalone-#{version}.jar"
-
-    if File.exist? selenium_server_standalone_jar
-      @server = Selenium::Server.new(selenium_server_standalone_jar, :background => true)
-      @server.start
-    else
-      puts "Selenium gem is not installed.Run: selenium install"
-    end
-  end
-
-  def stop_selenium_server
-    @server.stop if @server
-    @server = nil
-  end
-
 end
