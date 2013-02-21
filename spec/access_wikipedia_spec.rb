@@ -47,7 +47,7 @@ describe "access wikipedia" do
     driver = SeleniumDSL::SeleniumWebdriver::DSL.new(
         config[:selenium_host], config[:selenium_port], config[:browser])
 
-    driver.timeout_in_seconds = config['timeout_in_seconds']
+    driver.timeout_in_seconds = config[:timeout_in_seconds]
 
     driver.start
 
@@ -60,7 +60,9 @@ describe "access wikipedia" do
 
       find_element(:name, 'go').click
 
-      wait_until_enabled 'content'
+      disabled_condition = condition(lambda { |element| element.attribute("disabled").nil? ? true : element.attribute("disabled") })
+
+      wait_for_condition :id, 'content', disabled_condition
 
       expect(find_element(:id, 'content').text).to match /iPhone/
     end
@@ -103,81 +105,85 @@ describe "access wikipedia" do
     driver.stop
   end
 
-  it "should submit the request with capybara and webkit" do
-    config = load_configuration
-
-    driver = SeleniumDSL::Capybara::DSL.new(
-        config[:selenium_host], config[:selenium_port], config[:browser], config[:webapp_url], :webkit)
-
-    driver.start
-
-    driver.capybara do
-      visit '/'
-
-      text.should =~ /The Free Encyclopedia/
-
-      expect(find('#www-wikipedia-org')).not_to be_nil
-
-      fill_in 'searchInput', :with => 'iphone.com'
-      click_button '  →  '
-
-      ## todo: how to wait?
-      ##wait = Selenium::WebDriver::Wait.new(:timeout => 10) # seconds
-      ##wait.until {
-      ##  driver.find_element(:id, 'content')
-      ##}
-
-      expect(find('#content').text).to match /iPhone/
-
-      # "http://en.wikipedia.org/wiki/Special:Search?search=iphone.com&go=Go"
-      #expect(page.current_url).to eq "http://en.wikipedia.org/wiki/Iphone"
-
-      # save_and_open_page
-    end
-
-    driver.stop
-  end
-
-  it "should submit the request with capybara and selenium" do
-    start_selenium_server
-
-    config = load_configuration
-
-    driver = SeleniumDSL::Capybara::DSL.new(
-        config[:selenium_host], config[:selenium_port], config[:browser], config[:webapp_url], :selenium)
-
-    driver.start
-
-    driver.capybara do
-      visit '/'
-
-      text.should =~ /The Free Encyclopedia/
-
-      expect(find('#www-wikipedia-org')).not_to be_nil
-
-      fill_in 'searchInput', :with => 'iphone.com'
-      click_button '  →  '
-
-      ## todo: how to wait?
-      # todo: how to execute remote selenium?
-
-      ##wait = Selenium::WebDriver::Wait.new(:timeout => 10) # seconds
-      ##wait.until {
-      ##  driver.find_element(:id, 'content')
-      ##}
-
-      expect(find('#content').text).to match /iPhone/
-
-      # "http://en.wikipedia.org/wiki/Special:Search?search=iphone.com&go=Go"
-      #expect(page.current_url).to eq "http://en.wikipedia.org/wiki/Iphone"
-
-      # save_and_open_page
-    end
-
-    driver.stop
-
-    stop_selenium_server
-  end
+  #it "should submit the request with capybara and webkit" do
+  #  config = load_configuration
+  #
+  #  driver = SeleniumDSL::Capybara::DSL.new(
+  #      config[:selenium_host], config[:selenium_port], config[:browser], config[:webapp_url], :webkit)
+  #
+  #  driver.timeout_in_seconds = config['timeout_in_seconds']
+  #
+  #  driver.start
+  #
+  #  driver.capybara do
+  #    visit '/'
+  #
+  #    text.should =~ /The Free Encyclopedia/
+  #
+  #    expect(find('#www-wikipedia-org')).not_to be_nil
+  #
+  #    fill_in 'searchInput', :with => 'iphone.com'
+  #    click_button '  →  '
+  #
+  #    ## todo: how to wait?
+  #    ##wait = Selenium::WebDriver::Wait.new(:timeout => 10) # seconds
+  #    ##wait.until {
+  #    ##  driver.find_element(:id, 'content')
+  #    ##}
+  #
+  #    expect(find('#content').text).to match /iPhone/
+  #
+  #    # "http://en.wikipedia.org/wiki/Special:Search?search=iphone.com&go=Go"
+  #    #expect(page.current_url).to eq "http://en.wikipedia.org/wiki/Iphone"
+  #
+  #    # save_and_open_page
+  #  end
+  #
+  #  driver.stop
+  #end
+  #
+  #it "should submit the request with capybara and selenium" do
+  #  start_selenium_server(:port => 4444)
+  #
+  #  config = load_configuration
+  #
+  #  driver = SeleniumDSL::Capybara::DSL.new(
+  #      config[:selenium_host], config[:selenium_port], config[:browser], config[:webapp_url], :selenium)
+  #
+  #  driver.timeout_in_seconds = config['timeout_in_seconds']
+  #
+  #  driver.start
+  #
+  #  driver.capybara do
+  #    visit '/'
+  #
+  #    text.should =~ /The Free Encyclopedia/
+  #
+  #    expect(find('#www-wikipedia-org')).not_to be_nil
+  #
+  #    fill_in 'searchInput', :with => 'iphone.com'
+  #    click_button '  →  '
+  #
+  #    ## todo: how to wait?
+  #    # todo: how to execute remote selenium?
+  #
+  #    ##wait = Selenium::WebDriver::Wait.new(:timeout => 10) # seconds
+  #    ##wait.until {
+  #    ##  driver.find_element(:id, 'content')
+  #    ##}
+  #
+  #    expect(find('#content').text).to match /iPhone/
+  #
+  #    # "http://en.wikipedia.org/wiki/Special:Search?search=iphone.com&go=Go"
+  #    #expect(page.current_url).to eq "http://en.wikipedia.org/wiki/Iphone"
+  #
+  #    # save_and_open_page
+  #  end
+  #
+  #  driver.stop
+  #
+  #  stop_selenium_server
+  #end
 
   private
 

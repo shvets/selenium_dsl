@@ -1,6 +1,5 @@
 source :rubygems
 
-#gem "selenium-client"
 gem "selenium-webdriver"
 gem "selenium"
 
@@ -15,9 +14,18 @@ group :test do
   gem "rspec-expectations"
   gem "mocha"
   gem "watir-webdriver"
-  #gem "capybara"
-  gem "capybara", "1.1.4"
-  gem "capybara-webkit", "0.8.0"
+  #gem "capybara", "1.1.4"
+  #gem "capybara-webkit", "0.8.0"
+
+  # Note: You need to install qt:
+  # Mac: brew install qt
+  # Ubuntu: sudo apt-get install libqt4-dev libqtwebkit-dev
+  # Debian: sudo apt-get install libqt4-dev
+  # Fedora: yum install qt-webkit-devell
+
+  unless File.exist? "/usr/local/Cellar/qt"
+    system "brew install qt"
+  end
 end
 
 group :debug do

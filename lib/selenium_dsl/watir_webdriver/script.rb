@@ -1,4 +1,3 @@
-require 'watir-webdriver'
 require 'selenium_dsl/proxy'
 
 module SeleniumDSL::WatirWebdriver

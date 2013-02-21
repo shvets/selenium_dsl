@@ -2,52 +2,80 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f121c6d-2d22-4993-b695-5f87cc8a9c19" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/access_wikipedia_spec.rb" afterPath="$PROJECT_DIR$/spec/access_wikipedia_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/selenium_dsl/capybara/dsl.rb" afterPath="$PROJECT_DIR$/lib/selenium_dsl/capybara/dsl.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/selenium_dsl/selenium_webdriver/dsl.rb" afterPath="$PROJECT_DIR$/lib/selenium_dsl/selenium_webdriver/dsl.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/selenium_dsl/watir_webdriver/dsl.rb" afterPath="$PROJECT_DIR$/lib/selenium_dsl/watir_webdriver/dsl.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/selenium_dsl/selenium_webdriver/script.rb" afterPath="$PROJECT_DIR$/lib/selenium_dsl/selenium_webdriver/script.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/selenium_dsl/watir_webdriver/script.rb" afterPath="$PROJECT_DIR$/lib/selenium_dsl/watir_webdriver/script.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/selenium_dsl.iml" afterPath="$PROJECT_DIR$/.idea/selenium_dsl.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/selenium_dsl.rb" afterPath="$PROJECT_DIR$/lib/selenium_dsl.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/spec_helper.rb" afterPath="$PROJECT_DIR$/spec/spec_helper.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="selenium_dsl.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/selenium_dsl.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361027389566" ignored="false" />
+    <file path="/selenium_dsl.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361399857470" ignored="false" />
     <file path="/version.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1360789438855" ignored="false" />
     <file path="/selenium_dsl.gemspec.erb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1360790983790" ignored="false" />
     <file path="/README.md" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1360795559375" ignored="false" />
     <file path="$USER_HOME$/work/ui/src/spec/acceptance/selenium/selenium_dsl.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1360789774819" ignored="false" />
-    <file path="/Rakefile" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1360790908064" ignored="false" />
-    <file path="/CHANGES" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1360790296614" ignored="false" />
+    <file path="/Rakefile" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361395087532" ignored="false" />
+    <file path="/CHANGES" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361410181197" ignored="false" />
     <file path="/proxy.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1360796901347" ignored="false" />
-    <file path="/a.dummy" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361028074798" ignored="false" />
-    <file path="/script.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361050273029" ignored="false" />
+    <file path="/a.dummy" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361409329607" ignored="false" />
+    <file path="/script.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361479487836" ignored="false" />
     <file path="/selenium_dsl_spec.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1360792796732" ignored="false" />
     <file path="/selenium_dsl.gemspec" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1360790966351" ignored="false" />
-    <file path="$USER_HOME$/work/ui/src/Gemfile" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1360945036918" ignored="false" />
-    <file path="/Gemfile" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1360955692191" ignored="false" />
-    <file path="$USER_HOME$/work/ui/src/spec/acceptance/selenium/direct_flow_triton_spec.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361050917560" ignored="false" />
-    <file path="/direct_flow_triton_spec.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361050917560" ignored="false" />
+    <file path="$USER_HOME$/work/ui/src/Gemfile" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361388515486" ignored="false" />
+    <file path="/Gemfile" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361409054070" ignored="false" />
+    <file path="$USER_HOME$/work/ui/src/spec/acceptance/selenium/direct_flow_triton_spec.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361383550864" ignored="false" />
+    <file path="/direct_flow_triton_spec.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361382916002" ignored="false" />
     <file path="$USER_HOME$/work/ui/src/spec/acceptance/selenium/selenium_spec_helper.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1360791377218" ignored="false" />
-    <file path="/selenium_spec_helper.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361031511920" ignored="false" />
+    <file path="/selenium_spec_helper.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361401549198" ignored="false" />
     <file path="$USER_HOME$/work/ui-r19/src/spec/acceptance/selenium/selenium_spec_helper.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1360792938364" ignored="false" />
     <file path="/spec_helper2.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1360793356653" ignored="false" />
     <file path="/.rvmrc" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1360795614317" ignored="false" />
-    <file path="/spec_helper.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361029092744" ignored="false" />
+    <file path="/spec_helper.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361400018098" ignored="false" />
     <file path="/access_webapp_spec.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1360796014103" ignored="false" />
-    <file path="/fragment.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361025430384" ignored="false" />
-    <file path="/Dummy.txt" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361031023738" ignored="false" />
-    <file path="/dsl.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361030339113" ignored="false" />
+    <file path="/fragment.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361310548521" ignored="false" />
+    <file path="/Dummy.txt" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361478779485" ignored="false" />
+    <file path="/dsl.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361478901431" ignored="false" />
     <file path="$USER_HOME$/work/ui/src/Gemfile.lock" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1360945074826" ignored="false" />
     <file path="$USER_HOME$/work/ui/src/spec/acceptance/selenium/support/plan_page_steps.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361050776348" ignored="false" />
     <file path="/plan_page_steps.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1360948632249" ignored="false" />
     <file path="$USER_HOME$/work/ui/src/spec/acceptance/selenium/support/howto-selenium.txt" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361021951149" ignored="false" />
-    <file path="/access_wikipedia_spec.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361029219164" ignored="false" />
+    <file path="/access_wikipedia_spec.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361480113635" ignored="false" />
     <file path="/selenium_webdriver_dsl.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361023018759" ignored="false" />
     <file path="/howto-selenium.txt" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361021951149" ignored="false" />
     <file path="/selenium_helper.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361030163156" ignored="false" />
     <file path="$USER_HOME$/work/ui/src/spec/acceptance/selenium/support/selenium.yml" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361047948004" ignored="false" />
     <file path="/selenium.yml" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361047900405" ignored="false" />
-    <file path="$USER_HOME$/work/ui/src/spec/acceptance/selenium/support/selenium_spec_helper.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361031553221" ignored="false" />
-    <file path="$USER_HOME$/work/ui/src/spec/acceptance/selenium/support/contact_page_steps.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361050789195" ignored="false" />
+    <file path="$USER_HOME$/work/ui/src/spec/acceptance/selenium/support/selenium_spec_helper.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361401549198" ignored="false" />
+    <file path="$USER_HOME$/work/ui/src/spec/acceptance/selenium/support/contact_page_steps.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361382661110" ignored="false" />
+    <file path="$USER_HOME$/work/ui/src/spec/acceptance/capybara/support/capybara_spec_helper.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361311700130" ignored="false" />
+    <file path="$USER_HOME$/.rvm/gems/ruby-1.9.3-p385@selenium_dsl/gems/rack-1.5.2/lib/rack/handler.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361393059888" ignored="false" />
+    <file path="$USER_HOME$/.rvm/gems/ruby-1.9.3-p385@selenium_dsl/gems/rack-1.5.2/lib/rack/server.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361222802718" ignored="false" />
+    <file path="$USER_HOME$/work/ui/src/public/ftspartner/stylesheets/triton/styles.css" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361227290286" ignored="false" />
+    <file path="$USER_HOME$/work/ui/src/spec/spec_helper.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361376159623" ignored="false" />
+    <file path="/flow_steps.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361383838848" ignored="false" />
+    <file path="$USER_HOME$/work/ui/src/spec/acceptance/selenium/support/flow_steps.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361383847390" ignored="false" />
+    <file path="$USER_HOME$/work/ui/src/spec/acceptance/selenium/support/payment_page_steps.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361382752525" ignored="false" />
+    <file path="$USER_HOME$/work/ui/src/spec/external_services/resource_manager/resource_manager_gateway_spec.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361390682649" ignored="false" />
+    <file path="$PROJECT_DIR$/../script_executor/lib/script_executor/executable.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361391129474" ignored="false" />
+    <file path="$PROJECT_DIR$/../script_executor/lib/script_executor/version.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361391144723" ignored="false" />
+    <file path="$PROJECT_DIR$/../script_executor/CHANGES" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361391164121" ignored="false" />
+    <file path="$USER_HOME$/.rvm/gems/ruby-1.9.3-p385@selenium_dsl/gems/xpath-0.1.4/lib/xpath.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361393059888" ignored="false" />
+    <file path="$USER_HOME$/.rvm/gems/ruby-1.9.3-p385@selenium_dsl/gems/selenium-webdriver-2.29.0/lib/selenium/client/javascript_expression_builder.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361393059889" ignored="false" />
+    <file path="$USER_HOME$/.rvm/gems/ruby-1.9.3-p385@selenium_dsl/gems/capybara-1.1.4/lib/capybara/driver/node.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361393059889" ignored="false" />
+    <file path="$USER_HOME$/.rvm/gems/ruby-1.9.3-p385@selenium_dsl/gems/xpath-0.1.4/lib/xpath/html.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361393059889" ignored="false" />
+    <file path="/*.regexp" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361479065463" ignored="false" />
+    <file path="$PROJECT_DIR$/../selenium/lib/selenium/version.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361410157540" ignored="false" />
+    <file path="$PROJECT_DIR$/../selenium/CHANGES" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361410182013" ignored="false" />
+    <file path="$PROJECT_DIR$/../selenium/lib/selenium/starter.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361410194909" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,28 +92,28 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="access_wikipedia_spec.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="access_wikipedia_spec.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/access_wikipedia_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="0" selection-start="1379" selection-end="1379" vertical-scroll-proportion="0.0">
+            <state line="13" column="0" selection-start="355" selection-end="355" vertical-scroll-proportion="-1.5728813">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="selenium_dsl.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/selenium_dsl.rb">
+      <file leaf-file-name="dsl.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/selenium_dsl/watir_webdriver/dsl.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="61" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0">
+            <state line="21" column="101" selection-start="590" selection-end="590" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spec_helper.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
+      <file leaf-file-name="script.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/selenium_dsl/selenium_webdriver/script.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="11" selection-start="437" selection-end="437" vertical-scroll-proportion="0.0">
+            <state line="14" column="30" selection-start="322" selection-end="322" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -94,43 +122,7 @@
       <file leaf-file-name="dsl.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/selenium_dsl/selenium_webdriver/dsl.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="26" selection-start="505" selection-end="505" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="script.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/selenium_dsl/selenium_webdriver/script.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="76" selection-start="715" selection-end="715" vertical-scroll-proportion="0.7164179">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="script.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/selenium_dsl/selenium_client/script.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="309" selection-end="309" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dsl.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/selenium_dsl/selenium_client/dsl.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="48" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="selenium_helper.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/selenium_dsl/selenium_helper.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="21" selection-start="7" selection-end="21" vertical-scroll-proportion="0.0">
+            <state line="24" column="0" selection-start="833" selection-end="833" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -155,30 +147,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/lib/selenium_dsl/selenium_client_dsl.rb" />
-        <option value="$PROJECT_DIR$/lib/selenium_dsl/selenium_client/selenium_client_dsl.rb" />
         <option value="$PROJECT_DIR$/lib/selenium_dsl/selenium_client/script.rb" />
         <option value="$PROJECT_DIR$/lib/selenium_dsl/selenium_webdriver_dsl.rb" />
-        <option value="$PROJECT_DIR$/lib/selenium_dsl/watir_webdriver/dsl.rb" />
-        <option value="$PROJECT_DIR$/lib/selenium_dsl/capybara/dsl.rb" />
-        <option value="$PROJECT_DIR$/lib/selenium_dsl/capybara/script.rb" />
-        <option value="$PROJECT_DIR$/lib/selenium_dsl/watir_webdriver/script.rb" />
         <option value="$PROJECT_DIR$/lib/selenium_dsl/version.rb" />
-        <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
         <option value="$PROJECT_DIR$/lib/selenium_dsl/selenium_helper.rb" />
         <option value="$PROJECT_DIR$/lib/selenium_dsl/selenium_client/dsl.rb" />
+        <option value="$PROJECT_DIR$/lib/selenium_dsl/capybara/script.rb" />
+        <option value="$PROJECT_DIR$/lib/selenium_dsl/capybara/dsl.rb" />
         <option value="$PROJECT_DIR$/lib/selenium_dsl/selenium_webdriver/dsl.rb" />
+        <option value="$PROJECT_DIR$/Rakefile" />
+        <option value="$PROJECT_DIR$/lib/selenium_dsl/watir_webdriver/script.rb" />
+        <option value="$PROJECT_DIR$/lib/selenium_dsl/selenium_webdriver/script.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
+        <option value="$PROJECT_DIR$/lib/selenium_dsl/watir_webdriver/dsl.rb" />
         <option value="$PROJECT_DIR$/lib/selenium_dsl.rb" />
         <option value="$PROJECT_DIR$/spec/access_wikipedia_spec.rb" />
-        <option value="$PROJECT_DIR$/lib/selenium_dsl/selenium_webdriver/script.rb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="275" />
+    <option name="x" value="91" />
     <option name="y" value="22" />
     <option name="width" value="1589" />
-    <option name="height" value="1136" />
+    <option name="height" value="1028" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -228,7 +220,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="selenium-webdriver (v2.29.0, RVM: ruby-1.9.3-p385 [selenium_dsl]) [gem]" />
+              <option name="myItemId" value="watir-webdriver (v0.6.2, RVM: ruby-1.9.3-p385 [selenium_dsl]) [gem]" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="selenium_dsl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="watir-webdriver (v0.6.2, RVM: ruby-1.9.3-p385 [selenium_dsl]) [gem]" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -246,7 +252,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="selenium-webdriver (v2.29.0, RVM: ruby-1.9.3-p385 [selenium_dsl]) [gem]" />
+              <option name="myItemId" value="watir-webdriver (v0.6.2, RVM: ruby-1.9.3-p385 [selenium_dsl]) [gem]" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -254,204 +260,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="selenium" />
+              <option name="myItemId" value="watir-webdriver" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="selenium_dsl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="selenium-webdriver (v2.29.0, RVM: ruby-1.9.3-p385 [selenium_dsl]) [gem]" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="selenium" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webdriver" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="selenium_dsl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="selenium-webdriver (v2.29.0, RVM: ruby-1.9.3-p385 [selenium_dsl]) [gem]" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="selenium" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webdriver" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="remote" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="selenium_dsl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="selenium-webdriver (v2.29.0, RVM: ruby-1.9.3-p385 [selenium_dsl]) [gem]" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="selenium" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webdriver" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="firefox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="selenium_dsl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="selenium-webdriver (v2.29.0, RVM: ruby-1.9.3-p385 [selenium_dsl]) [gem]" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="selenium" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webdriver" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="selenium_dsl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rspec-core (v2.12.2, RVM: ruby-1.9.3-p385 [selenium_dsl]) [gem]" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rspec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="selenium_dsl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rspec-core (v2.12.2, RVM: ruby-1.9.3-p385 [selenium_dsl]) [gem]" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rspec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="selenium_dsl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rspec-core (v2.12.2, RVM: ruby-1.9.3-p385 [selenium_dsl]) [gem]" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="selenium_dsl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rspec-core (v2.12.2, RVM: ruby-1.9.3-p385 [selenium_dsl]) [gem]" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -528,6 +338,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="watir_webdriver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="selenium_dsl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="selenium_dsl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="selenium_dsl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="selenium_webdriver" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -554,6 +386,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="selenium_dsl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="selenium_dsl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="selenium_dsl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="capybara" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -575,7 +429,7 @@
       <recent name="$PROJECT_DIR$/lib/selenium_dsl/selenium_client" />
     </key>
   </component>
-  <component name="RunManager" selected="Ruby remote debug.remote">
+  <component name="RunManager" selected="RSpec.access wikipedia should submit the request with watir webdriver">
     <configuration default="false" name="access wikipedia should submit the request with selenium webdriver" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="selenium_dsl" />
@@ -712,7 +566,9 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <RunnerSettings RunnerId="RubyDebugRunner" />
       <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyDebugRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
@@ -746,7 +602,9 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <RunnerSettings RunnerId="RubyDebugRunner" />
       <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyDebugRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
@@ -854,11 +712,11 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="RSpec.access wikipedia should submit the request with selenium webdriver" />
-        <item index="1" class="java.lang.String" itemvalue="RSpec.access wikipedia should submit the request with selenium-client" />
-        <item index="2" class="java.lang.String" itemvalue="RSpec.access wikipedia should submit the request with capybara and selenium" />
-        <item index="3" class="java.lang.String" itemvalue="RSpec.access wikipedia should submit the request with capybara and webkit" />
-        <item index="4" class="java.lang.String" itemvalue="RSpec.access wikipedia should submit the request with watir webdriver" />
+        <item index="0" class="java.lang.String" itemvalue="RSpec.access wikipedia should submit the request with watir webdriver" />
+        <item index="1" class="java.lang.String" itemvalue="RSpec.access wikipedia should submit the request with selenium webdriver" />
+        <item index="2" class="java.lang.String" itemvalue="RSpec.access wikipedia should submit the request with selenium-client" />
+        <item index="3" class="java.lang.String" itemvalue="RSpec.access wikipedia should submit the request with capybara and selenium" />
+        <item index="4" class="java.lang.String" itemvalue="RSpec.access wikipedia should submit the request with capybara and webkit" />
       </list>
     </recent_temporary>
   </component>
@@ -907,27 +765,31 @@
       <created>1361029308801</created>
       <updated>1361029308801</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="redesign">
+      <created>1361050978695</created>
+      <updated>1361050978695</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="275" y="22" width="1589" height="1136" extended-state="0" />
+    <frame x="91" y="22" width="1589" height="1028" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32949087" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3376206" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290461" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3668179" sideWeight="0.6705091" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34390008" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28256643" sideWeight="0.66237944" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34297964" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33621517" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33547696" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32949087" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32957748" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -996,119 +858,118 @@
           <line>24</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p385@selenium_dsl/gems/capybara-1.1.4/lib/capybara/session.rb</url>
+          <line>81</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="30" />
+      <option name="time" value="67" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p385@selenium_dsl/gems/selenium-webdriver-2.29.0/lib/selenium/webdriver.rb">
+    <entry file="file://$PROJECT_DIR$/lib/selenium_dsl/selenium_client/script.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="0" selection-start="2329" selection-end="2329" vertical-scroll-proportion="0.7258567">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p385@selenium_dsl/gems/selenium-webdriver-2.29.0/lib/selenium/webdriver/remote/bridge.rb">
+    <entry file="file://$APPLICATION_HOME_DIR$/rubystubs193/basic_object.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="0" selection-start="1523" selection-end="1523" vertical-scroll-proportion="0.30467573">
+        <state line="227" column="8" selection-start="8323" selection-end="8323" vertical-scroll-proportion="3.6686869" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/selenium_dsl/capybara/script.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rakefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="282" selection-end="282" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/selenium_dsl/capybara/dsl.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="38" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/selenium_dsl/capybara/script.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="7" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/selenium_dsl/watir_webdriver/dsl.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="23" selection-start="604" selection-end="604" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/selenium_dsl/watir_webdriver/script.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="7" selection-start="324" selection-end="324" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/selenium_dsl/proxy.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/selenium_dsl/version.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="17" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0">
+        <state line="33" column="16" selection-start="1142" selection-end="1142" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/selenium_dsl/selenium_client/script.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="309" selection-end="309" vertical-scroll-proportion="0.0">
+        <state line="105" column="8" selection-start="2479" selection-end="2479" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/selenium_dsl/selenium_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="21" selection-start="7" selection-end="21" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/selenium_dsl/selenium_client/dsl.rb">
+    <entry file="file://$PROJECT_DIR$/lib/selenium_dsl/watir_webdriver/script.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="48" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="11" selection-start="437" selection-end="437" vertical-scroll-proportion="0.0">
+        <state line="12" column="86" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/selenium_dsl/selenium_webdriver/dsl.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="26" selection-start="505" selection-end="505" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/access_wikipedia_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="0" selection-start="1379" selection-end="1379" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/selenium_dsl.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="61" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0">
+        <state line="24" column="0" selection-start="833" selection-end="833" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/selenium_dsl/selenium_webdriver/script.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="76" selection-start="715" selection-end="715" vertical-scroll-proportion="0.7164179">
+        <state line="14" column="30" selection-start="322" selection-end="322" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/selenium_dsl.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="35" selection-start="255" selection-end="255" vertical-scroll-proportion="0.1891892">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="309" selection-end="309" vertical-scroll-proportion="-0.5405405">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="23" selection-start="57" selection-end="57" vertical-scroll-proportion="0.08108108">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p385@selenium_dsl/gems/watir-webdriver-0.6.2/lib/watir-webdriver/browser.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="8" selection-start="107" selection-end="107" vertical-scroll-proportion="-9.810811">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/selenium_dsl/watir_webdriver/dsl.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="101" selection-start="590" selection-end="590" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/access_wikipedia_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="355" selection-end="355" vertical-scroll-proportion="-1.5728813">
           <folding />
         </state>
       </provider>

@@ -2,39 +2,23 @@ GEM
   remote: http://rubygems.org/
   specs:
     archive-tar-minitar (0.5.2)
-    capybara (1.1.4)
-      mime-types (>= 1.16)
-      nokogiri (>= 1.3.3)
-      rack (>= 1.0.0)
-      rack-test (>= 0.5.4)
-      selenium-webdriver (~> 2.0)
-      xpath (~> 0.1.4)
-    capybara-webkit (0.8.0)
-      capybara (>= 1.0.0, < 1.2)
-      json
     childprocess (0.3.8)
       ffi (~> 1.0, >= 1.0.11)
     columnize (0.3.6)
     diff-lcs (1.1.3)
-    ffi (1.3.1)
+    ffi (1.4.0)
     file_utils (1.0.6)
     gemcutter (0.7.1)
     gemspec_deps_gen (1.0.5)
       file_utils
     jar_wrapper (0.1.7)
       zip
-    json (1.7.7)
     linecache19 (0.5.13)
       ruby_core_source (>= 0.1.4)
     metaclass (0.0.1)
-    mime-types (1.21)
     mocha (0.13.2)
       metaclass (~> 0.0.1)
     multi_json (1.6.1)
-    nokogiri (1.5.6)
-    rack (1.5.2)
-    rack-test (0.6.2)
-      rack (>= 1.0)
     rake (10.0.3)
     rspec (2.12.0)
       rspec-core (~> 2.12.0)
@@ -54,9 +38,9 @@ GEM
     ruby_core_source (0.1.5)
       archive-tar-minitar (>= 0.5.2)
     rubyzip (0.9.9)
-    selenium (0.2.8)
+    selenium (0.2.9)
       jar_wrapper
-    selenium-webdriver (2.29.0)
+    selenium-webdriver (2.30.0)
       childprocess (>= 0.2.5)
       multi_json (~> 1.0)
       rubyzip
@@ -64,16 +48,12 @@ GEM
     watir-webdriver (0.6.2)
       selenium-webdriver (>= 2.18.0)
     websocket (1.0.7)
-    xpath (0.1.4)
-      nokogiri (~> 1.3)
     zip (2.0.2)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  capybara (= 1.1.4)
-  capybara-webkit (= 0.8.0)
   gemcutter
   gemspec_deps_gen
   linecache19 (= 0.5.13)

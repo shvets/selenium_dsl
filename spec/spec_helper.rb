@@ -9,7 +9,7 @@ require 'selenium/server'
 SeleniumDSL::SeleniumClient::Script.send :include, RSpec::Matchers
 SeleniumDSL::SeleniumWebdriver::Script.send :include, RSpec::Matchers
 SeleniumDSL::WatirWebdriver::Script.send :include, RSpec::Matchers
-SeleniumDSL::Capybara::Script.send :include, RSpec::Matchers
+#SeleniumDSL::Capybara::Script.send :include, RSpec::Matchers
 
 #RSpec.configuration.include(SeleniumDSL::DSL)
 
@@ -33,6 +33,33 @@ share_examples_for :SeleniumTest do
   end
 
 end
+
+#def selenium_already_started?
+#  system "lsof -i :4444"
+#end
+#
+#def download_selenium_server url, file_name
+#  system "mkdir #{File.dirname(file_name)}"
+#  system "wget #{url} -O #{file_name}"
+#end
+#
+#def start_selenium_server opts = {}
+#  unless selenium_already_started?
+#    require 'selenium'
+#
+#    version = Selenium::Starter::SELENIUM_SERVER_VERSION
+#    url = "http://selenium.googlecode.com/files/selenium-server-standalone-#{version}.jar"
+#    file_name = "#{ENV['HOME']}/.selenium/assets/selenium-#{version}/selenium-server-standalone-#{version}.jar"
+#
+#    unless File.exist? file_name
+#      download_selenium_server url, file_name
+#    end
+#
+#    opts[:background] = true
+#    @server = Selenium::Server.new(file_name, opts)
+#    @server.start
+#  end
+#end
 
 def start_selenium_server
   require 'selenium'

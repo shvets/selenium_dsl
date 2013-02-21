@@ -12,9 +12,8 @@ module SeleniumDSL::SeleniumWebdriver
     attr_writer :timeout_in_seconds
 
     def initialize(selenium_host, selenium_port, browser, capabilities={})
-      @driver = Selenium::WebDriver.for(:remote,
-                  :desired_capabilities => browser.to_sym,
-                  :url => construct_selenium_url(selenium_host, selenium_port))
+      @driver = Selenium::WebDriver.for(:remote, :url => construct_selenium_url(selenium_host, selenium_port),
+                                        :desired_capabilities => browser.to_sym)
 
       @driver.capabilities.merge(capabilities) unless capabilities.empty?
 
@@ -22,7 +21,8 @@ module SeleniumDSL::SeleniumWebdriver
     end
 
     def timeout_in_seconds= timeout_in_seconds
-      @driver.manage.timeouts.implicit_wait = timeout_in_seconds.to_i
+      #@driver.manage.timeouts.implicit_wait = timeout_in_seconds.to_i
+      @script.timeout_in_seconds = timeout_in_seconds.to_i
     end
 
     def start

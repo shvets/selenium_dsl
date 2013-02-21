@@ -15,15 +15,22 @@ module SeleniumDSL::SeleniumWebdriver
       @timeout_in_seconds = 60
     end
 
-    def wait_until_enabled(type, query, timeout=10)
-      wait = ::Selenium::WebDriver::Wait.new(:timeout => timeout) # seconds
-      wait.until {
-        driver.find_element(type, query)
-      }
+    def condition block
+      lambda do |type, query|
+        element = find_element(type, query)
+
+        block.call(element)
+      end
+    end
+
+    def wait_for_condition(type, query, condition)
+      wait = ::Selenium::WebDriver::Wait.new(:timeout => @timeout_in_seconds) # seconds
+
+      wait.until { condition.call(type, query) }
     end
 
     def is_text_present type, query, value
-      !!(find_element(type, query).text =~ /#{value}/)
+      !!(find_element(type, query).text =~ /#{value}/i)
     end
 
     def click type, query
@@ -35,13 +42,24 @@ module SeleniumDSL::SeleniumWebdriver
 
       options = select_box.find_elements(:tag_name => "option")
 
-      options.each do |option_field|
-        if option_field.text == value
-          option_field.click
-          break
+      option = nil
+
+      if value.kind_of? Fixnum # get n-th element
+        option = options[value]
+      else
+        options.each do |current_option|
+          if current_option.text == value
+            option = current_option
+            break
+          end
         end
       end
+
+      option.click if option
     end
 
+    def input type, query, value
+      find_element(type, query).send_keys(value)
+    end
   end
 end

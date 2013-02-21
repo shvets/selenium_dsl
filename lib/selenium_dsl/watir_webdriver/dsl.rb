@@ -36,3 +36,4 @@ module SeleniumDSL::WatirWebdriver
   end
 
 end
+
