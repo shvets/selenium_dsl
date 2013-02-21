@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f121c6d-2d22-4993-b695-5f87cc8a9c19" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/access_wikipedia_spec.rb" afterPath="$PROJECT_DIR$/spec/access_wikipedia_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/selenium_dsl/capybara/dsl.rb" afterPath="$PROJECT_DIR$/lib/selenium_dsl/capybara/dsl.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/selenium_dsl/selenium_webdriver/dsl.rb" afterPath="$PROJECT_DIR$/lib/selenium_dsl/selenium_webdriver/dsl.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/selenium_dsl/watir_webdriver/dsl.rb" afterPath="$PROJECT_DIR$/lib/selenium_dsl/watir_webdriver/dsl.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/selenium_dsl/selenium_webdriver/script.rb" afterPath="$PROJECT_DIR$/lib/selenium_dsl/selenium_webdriver/script.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/selenium_dsl/watir_webdriver/script.rb" afterPath="$PROJECT_DIR$/lib/selenium_dsl/watir_webdriver/script.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/selenium_dsl.iml" afterPath="$PROJECT_DIR$/.idea/selenium_dsl.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/selenium_dsl.rb" afterPath="$PROJECT_DIR$/lib/selenium_dsl.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/spec_helper.rb" afterPath="$PROJECT_DIR$/spec/spec_helper.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CHANGES" afterPath="$PROJECT_DIR$/CHANGES" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="selenium_dsl.iws" />
@@ -24,7 +13,7 @@
     <file path="/README.md" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1360795559375" ignored="false" />
     <file path="$USER_HOME$/work/ui/src/spec/acceptance/selenium/selenium_dsl.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1360789774819" ignored="false" />
     <file path="/Rakefile" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361395087532" ignored="false" />
-    <file path="/CHANGES" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361410181197" ignored="false" />
+    <file path="/CHANGES" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361480236908" ignored="false" />
     <file path="/proxy.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1360796901347" ignored="false" />
     <file path="/a.dummy" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361409329607" ignored="false" />
     <file path="/script.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361479487836" ignored="false" />
@@ -42,7 +31,7 @@
     <file path="/spec_helper.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361400018098" ignored="false" />
     <file path="/access_webapp_spec.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1360796014103" ignored="false" />
     <file path="/fragment.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361310548521" ignored="false" />
-    <file path="/Dummy.txt" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361478779485" ignored="false" />
+    <file path="/Dummy.txt" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361480191116" ignored="false" />
     <file path="/dsl.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361478901431" ignored="false" />
     <file path="$USER_HOME$/work/ui/src/Gemfile.lock" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1360945074826" ignored="false" />
     <file path="$USER_HOME$/work/ui/src/spec/acceptance/selenium/support/plan_page_steps.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361050776348" ignored="false" />
@@ -92,10 +81,28 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="access_wikipedia_spec.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="access_wikipedia_spec.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/access_wikipedia_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="355" selection-end="355" vertical-scroll-proportion="-1.5728813">
+            <state line="86" column="98" selection-start="2221" selection-end="2221" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="version.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/selenium_dsl/version.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CHANGES" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CHANGES">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="19" selection-start="101" selection-end="101" vertical-scroll-proportion="0.21694915">
               <folding />
             </state>
           </provider>
@@ -147,7 +154,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/lib/selenium_dsl/selenium_client/script.rb" />
         <option value="$PROJECT_DIR$/lib/selenium_dsl/selenium_webdriver_dsl.rb" />
         <option value="$PROJECT_DIR$/lib/selenium_dsl/version.rb" />
         <option value="$PROJECT_DIR$/lib/selenium_dsl/selenium_helper.rb" />
@@ -163,6 +169,7 @@
         <option value="$PROJECT_DIR$/lib/selenium_dsl/watir_webdriver/dsl.rb" />
         <option value="$PROJECT_DIR$/lib/selenium_dsl.rb" />
         <option value="$PROJECT_DIR$/spec/access_wikipedia_spec.rb" />
+        <option value="$PROJECT_DIR$/CHANGES" />
       </list>
     </option>
   </component>
@@ -769,13 +776,18 @@
       <created>1361050978695</created>
       <updated>1361050978695</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="redesign">
+      <created>1361480196963</created>
+      <updated>1361480196963</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="91" y="22" width="1589" height="1028" extended-state="0" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32957748" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3376206" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290461" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -790,7 +802,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32957748" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -868,16 +879,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/selenium_dsl/selenium_client/script.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/rubystubs193/basic_object.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="227" column="8" selection-start="8323" selection-end="8323" vertical-scroll-proportion="3.6686869" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/selenium_dsl/capybara/script.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -969,7 +970,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/access_wikipedia_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="355" selection-end="355" vertical-scroll-proportion="-1.5728813">
+        <state line="86" column="98" selection-start="2221" selection-end="2221" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/selenium_dsl/version.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CHANGES">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="19" selection-start="101" selection-end="101" vertical-scroll-proportion="0.21694915">
           <folding />
         </state>
       </provider>
