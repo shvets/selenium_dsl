@@ -23,10 +23,26 @@ module SeleniumDSL::SeleniumWebdriver
       end
     end
 
-    def wait_for_condition(type, query, condition)
-      wait = ::Selenium::WebDriver::Wait.new(:timeout => @timeout_in_seconds) # seconds
+    def generic_condition block
+      lambda do
+        block.call()
+      end
+    end
 
-      wait.until { condition.call(type, query) }
+    def wait_for_condition(*params)
+      if params.size == 1
+        condition = *params
+
+        wait = ::Selenium::WebDriver::Wait.new(:timeout => @timeout_in_seconds) # seconds
+
+        wait.until { condition.call() }
+      elsif params.size == 3
+        type, query, condition = *params
+
+        wait = ::Selenium::WebDriver::Wait.new(:timeout => @timeout_in_seconds) # seconds
+
+        wait.until { condition.call(type, query) }
+      end
     end
 
     def is_text_present type, query, value
