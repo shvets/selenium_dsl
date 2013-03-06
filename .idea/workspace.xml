@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4f121c6d-2d22-4993-b695-5f87cc8a9c19" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CHANGES" afterPath="$PROJECT_DIR$/CHANGES" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/selenium_dsl/selenium_webdriver/script.rb" afterPath="$PROJECT_DIR$/lib/selenium_dsl/selenium_webdriver/script.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/selenium_dsl.iml" afterPath="$PROJECT_DIR$/.idea/selenium_dsl.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/selenium_dsl/version.rb" afterPath="$PROJECT_DIR$/lib/selenium_dsl/version.rb" />
@@ -17,7 +16,7 @@
     <file path="/README.md" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1360795559375" ignored="false" />
     <file path="$USER_HOME$/work/ui/src/spec/acceptance/selenium/selenium_dsl.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1360789774819" ignored="false" />
     <file path="/Rakefile" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361395087532" ignored="false" />
-    <file path="/CHANGES" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1362606073164" ignored="false" />
+    <file path="/CHANGES" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1362607811290" ignored="false" />
     <file path="/proxy.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1360796901347" ignored="false" />
     <file path="/a.dummy" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1362606044014" ignored="false" />
     <file path="/script.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361479487836" ignored="false" />
@@ -35,7 +34,7 @@
     <file path="/spec_helper.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361400018098" ignored="false" />
     <file path="/access_webapp_spec.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1360796014103" ignored="false" />
     <file path="/fragment.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361310548521" ignored="false" />
-    <file path="/Dummy.txt" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1362606015500" ignored="false" />
+    <file path="/Dummy.txt" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1362607797782" ignored="false" />
     <file path="/dsl.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361478901431" ignored="false" />
     <file path="$USER_HOME$/work/ui/src/Gemfile.lock" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1360945074826" ignored="false" />
     <file path="$USER_HOME$/work/ui/src/spec/acceptance/selenium/support/plan_page_steps.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361050776348" ignored="false" />
@@ -126,15 +125,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="access_wikipedia_spec.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/access_wikipedia_spec.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="86" column="52" selection-start="2221" selection-end="2221" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="version.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/selenium_dsl/version.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -144,28 +134,46 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CHANGES" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="CHANGES" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CHANGES">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="46" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0">
+            <state line="16" column="11" selection-start="189" selection-end="189" vertical-scroll-proportion="0.28287292">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Rakefile" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="dsl.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/selenium_dsl/selenium_client/dsl.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="script.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/selenium_dsl/selenium_client/script.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="105" column="8" selection-start="2479" selection-end="2479" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Rakefile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Rakefile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="282" selection-end="282" vertical-scroll-proportion="0.25083613">
+            <state line="15" column="0" selection-start="282" selection-end="282" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".rvmrc" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.rvmrc">
+      <file leaf-file-name="selenium_helper.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/selenium_dsl/selenium_helper.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="13" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -192,7 +200,7 @@
       <file leaf-file-name="script.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/selenium_dsl/selenium_webdriver/script.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="22" selection-start="1223" selection-end="1223" vertical-scroll-proportion="0.0">
+            <state line="42" column="32" selection-start="951" selection-end="951" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -239,9 +247,9 @@
         <option value="$PROJECT_DIR$/spec/access_wikipedia_spec.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/.rvmrc" />
-        <option value="$PROJECT_DIR$/lib/selenium_dsl/selenium_webdriver/script.rb" />
         <option value="$PROJECT_DIR$/lib/selenium_dsl/version.rb" />
         <option value="$PROJECT_DIR$/CHANGES" />
+        <option value="$PROJECT_DIR$/lib/selenium_dsl/selenium_webdriver/script.rb" />
       </list>
     </option>
   </component>
@@ -277,6 +285,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -431,18 +440,17 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -724,12 +732,12 @@
       <method />
     </configuration>
     <list size="6">
-      <item index="0" class="java.lang.String" itemvalue="Ruby remote debug.remote" />
-      <item index="1" class="java.lang.String" itemvalue="RSpec.access wikipedia should submit the request with selenium webdriver" />
-      <item index="2" class="java.lang.String" itemvalue="RSpec.access wikipedia should submit the request with selenium-client" />
-      <item index="3" class="java.lang.String" itemvalue="RSpec.access wikipedia should submit the request with watir webdriver" />
-      <item index="4" class="java.lang.String" itemvalue="RSpec.access wikipedia should submit the request with capybara and webkit" />
-      <item index="5" class="java.lang.String" itemvalue="RSpec.access wikipedia should submit the request with capybara and selenium" />
+      <item index="0" class="java.lang.String" itemvalue="RSpec.access wikipedia should submit the request with selenium webdriver" />
+      <item index="1" class="java.lang.String" itemvalue="RSpec.access wikipedia should submit the request with selenium-client" />
+      <item index="2" class="java.lang.String" itemvalue="RSpec.access wikipedia should submit the request with watir webdriver" />
+      <item index="3" class="java.lang.String" itemvalue="RSpec.access wikipedia should submit the request with capybara and webkit" />
+      <item index="4" class="java.lang.String" itemvalue="RSpec.access wikipedia should submit the request with capybara and selenium" />
+      <item index="5" class="java.lang.String" itemvalue="Ruby remote debug.remote" />
     </list>
     <recent_temporary>
       <list size="5">
@@ -807,10 +815,9 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3376206" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3290461" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3058976" sideWeight="0.6709539" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31043422" sideWeight="0.6709539" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34297964" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -819,6 +826,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3290461" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32957748" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -897,24 +905,9 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/selenium_dsl/capybara/script.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/selenium_dsl/capybara/dsl.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="16" selection-start="1142" selection-end="1142" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/selenium_dsl/selenium_client/script.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="8" selection-start="2479" selection-end="2479" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/selenium_dsl/selenium_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/selenium_dsl/watir_webdriver/script.rb">
@@ -967,9 +960,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/selenium_dsl/selenium_webdriver/script.rb">
+    <entry file="file://$PROJECT_DIR$/Rakefile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="22" selection-start="1223" selection-end="1223" vertical-scroll-proportion="0.0">
+        <state line="15" column="0" selection-start="282" selection-end="282" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/selenium_dsl/selenium_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -981,16 +981,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CHANGES">
+    <entry file="file://$PROJECT_DIR$/lib/selenium_dsl/selenium_client/dsl.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="46" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Rakefile">
+    <entry file="file://$PROJECT_DIR$/lib/selenium_dsl/selenium_client/script.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="282" selection-end="282" vertical-scroll-proportion="0.25083613">
+        <state line="105" column="8" selection-start="2479" selection-end="2479" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/selenium_dsl/selenium_webdriver/script.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="32" selection-start="951" selection-end="951" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CHANGES">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="11" selection-start="189" selection-end="189" vertical-scroll-proportion="0.28287292">
           <folding />
         </state>
       </provider>

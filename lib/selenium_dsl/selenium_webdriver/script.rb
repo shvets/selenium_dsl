@@ -31,7 +31,7 @@ module SeleniumDSL::SeleniumWebdriver
 
     def wait_for_condition(*params)
       if params.size == 1
-        condition = *params
+        condition = params[0]
 
         wait = ::Selenium::WebDriver::Wait.new(:timeout => @timeout_in_seconds) # seconds
 
