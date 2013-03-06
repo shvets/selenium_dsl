@@ -11,3 +11,7 @@
 == Version 1.2.0
 
 * Changes in wait_for_condition API.
+
+== Version 1.2.1
+
+* Bug fix.

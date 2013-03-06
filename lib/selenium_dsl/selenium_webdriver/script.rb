@@ -60,7 +60,7 @@ module SeleniumDSL::SeleniumWebdriver
 
       option = nil
 
-      if value.kind_of? Fixnum # get n-th element
+      if value.kind_of? ::Fixnum # get n-th element
         option = options[value]
       else
         options.each do |current_option|

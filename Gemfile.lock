@@ -1,8 +1,10 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    archive-tar-minitar (0.5.2)
     childprocess (0.3.8)
       ffi (~> 1.0, >= 1.0.11)
+    columnize (0.3.6)
     diff-lcs (1.2.1)
     ffi (1.4.0)
     file_utils (1.0.6)
@@ -11,10 +13,13 @@ GEM
       file_utils
     jar_wrapper (0.1.7)
       zip
+    linecache19 (0.5.13)
+      ruby_core_source (>= 0.1.4)
     metaclass (0.0.1)
     mocha (0.13.2)
       metaclass (~> 0.0.1)
     multi_json (1.6.1)
+    rake (10.0.3)
     rspec (2.13.0)
       rspec-core (~> 2.13.0)
       rspec-expectations (~> 2.13.0)
@@ -23,6 +28,15 @@ GEM
     rspec-expectations (2.13.0)
       diff-lcs (>= 1.1.3, < 2.0)
     rspec-mocks (2.13.0)
+    ruby-debug-base19x (0.11.30.pre10)
+      columnize (>= 0.3.1)
+      linecache19 (>= 0.5.11)
+      rake (>= 0.8.1)
+      ruby_core_source (>= 0.1.4)
+    ruby-debug-ide (0.4.17.beta14)
+      rake (>= 0.8.1)
+    ruby_core_source (0.1.5)
+      archive-tar-minitar (>= 0.5.2)
     rubyzip (0.9.9)
     selenium (0.2.9)
       jar_wrapper
@@ -42,10 +56,13 @@ PLATFORMS
 DEPENDENCIES
   gemcutter
   gemspec_deps_gen
+  linecache19 (= 0.5.13)
   mocha
   rspec
   rspec-core
   rspec-expectations
+  ruby-debug-base19x (= 0.11.30.pre10)
+  ruby-debug-ide (= 0.4.17.beta14)
   selenium
   selenium-webdriver
   watir-webdriver

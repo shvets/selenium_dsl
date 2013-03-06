@@ -4,8 +4,6 @@
     <list default="true" id="4f121c6d-2d22-4993-b695-5f87cc8a9c19" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CHANGES" afterPath="$PROJECT_DIR$/CHANGES" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/selenium_dsl/selenium_webdriver/script.rb" afterPath="$PROJECT_DIR$/lib/selenium_dsl/selenium_webdriver/script.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/selenium_dsl.iml" afterPath="$PROJECT_DIR$/.idea/selenium_dsl.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/selenium_dsl/version.rb" afterPath="$PROJECT_DIR$/lib/selenium_dsl/version.rb" />
@@ -19,13 +17,13 @@
     <file path="/README.md" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1360795559375" ignored="false" />
     <file path="$USER_HOME$/work/ui/src/spec/acceptance/selenium/selenium_dsl.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1360789774819" ignored="false" />
     <file path="/Rakefile" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361395087532" ignored="false" />
-    <file path="/CHANGES" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361997272771" ignored="false" />
+    <file path="/CHANGES" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1362606073164" ignored="false" />
     <file path="/proxy.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1360796901347" ignored="false" />
-    <file path="/a.dummy" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361409329607" ignored="false" />
+    <file path="/a.dummy" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1362606044014" ignored="false" />
     <file path="/script.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361479487836" ignored="false" />
     <file path="/selenium_dsl_spec.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1360792796732" ignored="false" />
     <file path="/selenium_dsl.gemspec" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1360790966351" ignored="false" />
-    <file path="$USER_HOME$/work/ui/src/Gemfile" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361388515486" ignored="false" />
+    <file path="$USER_HOME$/work/ui/src/Gemfile" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1362001074785" ignored="false" />
     <file path="/Gemfile" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361409054070" ignored="false" />
     <file path="$USER_HOME$/work/ui/src/spec/acceptance/selenium/direct_flow_triton_spec.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361383550864" ignored="false" />
     <file path="/direct_flow_triton_spec.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361382916002" ignored="false" />
@@ -33,11 +31,11 @@
     <file path="/selenium_spec_helper.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361401549198" ignored="false" />
     <file path="$USER_HOME$/work/ui-r19/src/spec/acceptance/selenium/selenium_spec_helper.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1360792938364" ignored="false" />
     <file path="/spec_helper2.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1360793356653" ignored="false" />
-    <file path="/.rvmrc" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361737851803" ignored="false" />
+    <file path="/.rvmrc" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361997900112" ignored="false" />
     <file path="/spec_helper.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361400018098" ignored="false" />
     <file path="/access_webapp_spec.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1360796014103" ignored="false" />
     <file path="/fragment.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361310548521" ignored="false" />
-    <file path="/Dummy.txt" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361997131843" ignored="false" />
+    <file path="/Dummy.txt" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1362606015500" ignored="false" />
     <file path="/dsl.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361478901431" ignored="false" />
     <file path="$USER_HOME$/work/ui/src/Gemfile.lock" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1360945074826" ignored="false" />
     <file path="$USER_HOME$/work/ui/src/spec/acceptance/selenium/support/plan_page_steps.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361050776348" ignored="false" />
@@ -72,6 +70,46 @@
     <file path="$PROJECT_DIR$/../selenium/CHANGES" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361410182013" ignored="false" />
     <file path="$PROJECT_DIR$/../selenium/lib/selenium/starter.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361410194909" ignored="false" />
     <file path="$PROJECT_DIR$/../etv/.rvmrc" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361737852113" ignored="false" />
+    <file path="$USER_HOME$/work/ui/src/app/controllers/retail_activation_controller.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361997657426" ignored="false" />
+    <file path="$USER_HOME$/work/ui/src/app/models/login.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361997657426" ignored="false" />
+    <file path="$USER_HOME$/work/ui/src/lib/tasks/ci.rake" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361997657426" ignored="false" />
+    <file path="$USER_HOME$/work/ui/src/app/models/credit_card.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361997657426" ignored="false" />
+    <file path="$USER_HOME$/work/ui/src/app/models/customer_care_login.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361997657426" ignored="false" />
+    <file path="$USER_HOME$/work/ui/src/app/models/device.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361997657426" ignored="false" />
+    <file path="$USER_HOME$/work/ui/src/app/models/page_content.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361997657426" ignored="false" />
+    <file path="$USER_HOME$/work/ui/src/app/models/plan_device_mapping.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361997657426" ignored="false" />
+    <file path="$USER_HOME$/work/ui/src/app/controllers/triton/shipping_info_section.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361997657426" ignored="false" />
+    <file path="$USER_HOME$/work/ui/src/app/models/disclaimer.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361997657427" ignored="false" />
+    <file path="$USER_HOME$/work/ui/src/app/models/promo_alternate_mapping.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361997657427" ignored="false" />
+    <file path="$USER_HOME$/work/ui/src/app/domain/logging/dynamic_logger.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361997657427" ignored="false" />
+    <file path="$USER_HOME$/work/ui/src/app/controllers/triton/base_controller.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361997657427" ignored="false" />
+    <file path="$USER_HOME$/work/ui/src/app/controllers/order_status_controller.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361997657427" ignored="false" />
+    <file path="$USER_HOME$/work/ui/src/app/models/account.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361997657427" ignored="false" />
+    <file path="$USER_HOME$/work/ui/src/app/views/order_on_hold/order_on_hold.html.erb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361997657427" ignored="false" />
+    <file path="$USER_HOME$/work/ui/src/config/routes.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361997657427" ignored="false" />
+    <file path="$USER_HOME$/work/ui/src/app/controllers/port_number_success_controller.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361997657427" ignored="false" />
+    <file path="$USER_HOME$/work/ui/src/app/models/emergency_address.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361997657427" ignored="false" />
+    <file path="$USER_HOME$/work/ui/src/app/views/order_status/order_interrupted.html.erb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361997657427" ignored="false" />
+    <file path="$USER_HOME$/work/ui/src/app/models/bad_contact_number.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361997657427" ignored="false" />
+    <file path="$USER_HOME$/work/ui/src/app/controllers/select_number_controller.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361997657427" ignored="false" />
+    <file path="$USER_HOME$/work/ui/src/app/controllers/application_controller.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361997657427" ignored="false" />
+    <file path="$USER_HOME$/work/ui/src/app/services/vdv/active_record_base.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361997657427" ignored="false" />
+    <file path="$USER_HOME$/work/ui/src/app/models/cart.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361997657427" ignored="false" />
+    <file path="$USER_HOME$/work/ui/src/app/models/checking_info.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361997657427" ignored="false" />
+    <file path="$USER_HOME$/work/ui/src/app/models/localized_content.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361997657427" ignored="false" />
+    <file path="$USER_HOME$/work/ui/src/.rvmrc" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361999902603" ignored="false" />
+    <file path="$USER_HOME$/work/ui/src/Gemfile-old" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1362001065858" ignored="false" />
+    <file path="/install-proteus-on-mountain-lion.txt" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361998788009" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../Docs/vonage/install-proteus-on-mountain-lion.txt" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1361998788009" ignored="false" />
+    <file path="$USER_HOME$/work/ui/src/config/environments/development.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1362000538396" ignored="false" />
+    <file path="$USER_HOME$/work/ui/src/config/environments/test.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1362000915378" ignored="false" />
+    <file path="$USER_HOME$/work/ui/src/lib/tasks/servers.rake" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1362000365994" ignored="false" />
+    <file path="$USER_HOME$/work/ui/src/config/environments/coverage.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1362000408617" ignored="false" />
+    <file path="$USER_HOME$/work/ui/src/config/dbauth/proteusui-billing-dev" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1362000915378" ignored="false" />
+    <file path="$USER_HOME$/work/ui/src/db/schema.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1362000915378" ignored="false" />
+    <file path="$USER_HOME$/work/ui/src/config/database.yml" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1362001165742" ignored="false" />
+    <file path="/database.yml" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1362001165742" ignored="false" />
+    <file path="$USER_HOME$/work/ui/src/spec/acceptance/selenium/tm_flow_vonage_spec.rb" changelist="4f121c6d-2d22-4993-b695-5f87cc8a9c19" time="1362605621178" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +129,7 @@
       <file leaf-file-name="access_wikipedia_spec.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/access_wikipedia_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="86" column="98" selection-start="2221" selection-end="2221" vertical-scroll-proportion="0.0">
+            <state line="86" column="52" selection-start="2221" selection-end="2221" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -106,10 +144,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CHANGES" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="CHANGES" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CHANGES">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="1" selection-start="123" selection-end="158" vertical-scroll-proportion="0.32542372">
+            <state line="14" column="46" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Rakefile" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Rakefile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="0" selection-start="282" selection-end="282" vertical-scroll-proportion="0.25083613">
               <folding />
             </state>
           </provider>
@@ -127,7 +174,7 @@
       <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="144" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0">
+            <state line="3" column="14" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -136,7 +183,7 @@
       <file leaf-file-name="dsl.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/selenium_dsl/watir_webdriver/dsl.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="101" selection-start="590" selection-end="590" vertical-scroll-proportion="0.0">
+            <state line="21" column="0" selection-start="590" selection-end="590" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -145,7 +192,7 @@
       <file leaf-file-name="script.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/selenium_dsl/selenium_webdriver/script.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="0" selection-end="1775" vertical-scroll-proportion="0.0">
+            <state line="55" column="22" selection-start="1223" selection-end="1223" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -230,7 +277,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -385,17 +431,18 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -756,13 +803,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="91" y="22" width="1589" height="1028" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3376206" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3376206" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3290461" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.294232" sideWeight="0.66237944" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3058976" sideWeight="0.6709539" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34297964" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -771,7 +819,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290461" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32957748" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -855,11 +902,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Rakefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="282" selection-end="282" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/selenium_dsl/capybara/dsl.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="16" selection-start="1142" selection-end="1142" vertical-scroll-proportion="0.0" />
@@ -890,30 +932,9 @@
         <state line="10" column="0" selection-start="309" selection-end="309" vertical-scroll-proportion="-0.5405405" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/selenium_dsl/watir_webdriver/dsl.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="101" selection-start="590" selection-end="590" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/access_wikipedia_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="98" selection-start="2221" selection-end="2221" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/selenium_dsl/selenium_webdriver/dsl.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="833" selection-end="833" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="144" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0">
+        <state line="86" column="52" selection-start="2221" selection-end="2221" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -925,9 +946,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="14" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/selenium_dsl/watir_webdriver/dsl.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="590" selection-end="590" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/selenium_dsl/selenium_webdriver/dsl.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="833" selection-end="833" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/selenium_dsl/selenium_webdriver/script.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="0" selection-end="1775" vertical-scroll-proportion="0.0">
+        <state line="55" column="22" selection-start="1223" selection-end="1223" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -941,7 +983,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CHANGES">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="1" selection-start="123" selection-end="158" vertical-scroll-proportion="0.32542372">
+        <state line="14" column="46" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rakefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="282" selection-end="282" vertical-scroll-proportion="0.25083613">
           <folding />
         </state>
       </provider>
