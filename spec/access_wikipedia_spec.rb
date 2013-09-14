@@ -36,6 +36,36 @@ describe "access wikipedia" do
     stop_selenium_server
   end
 
+  it "should submit the request with selenium webdriver directly" do
+    #start_selenium_server
+
+    require 'selenium-webdriver'
+
+    browser = Selenium::WebDriver.for(:firefox)
+
+    browser.get('http://www.wikipedia.org')
+
+    expect(browser.find_element(:id, 'www-wikipedia-org')).not_to be_nil
+
+    browser.find_element(:id, 'searchInput').send_keys("iphone")
+
+    browser.find_element(:name, 'go').click
+
+    wait = ::Selenium::WebDriver::Wait.new(:timeout => 60) # seconds
+
+    wait.until {
+      element = browser.find_element(:id, 'content')
+
+      element.attribute("disabled").nil? ? true : element.attribute("disabled")
+    }
+
+     expect(browser.element.text).to match /iPhone/
+
+     browser.quit
+
+    #stop_selenium_server
+  end
+
   it "should submit the request with selenium webdriver" do
     start_selenium_server
 

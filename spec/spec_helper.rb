@@ -65,6 +65,7 @@ def start_selenium_server
   require 'selenium'
 
   version = Selenium::Starter::SELENIUM_SERVER_VERSION
+
   selenium_server_standalone_jar = "#{ENV['HOME']}/.selenium/assets/selenium-#{version}/selenium-server-standalone-#{version}.jar"
 
   if File.exist? selenium_server_standalone_jar
