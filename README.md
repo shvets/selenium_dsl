@@ -1,5 +1,9 @@
 # SeleniumDSL - Simple way to build Selenium code as DSL
 
+## Note
+
+Deprecated in favor of Capybara
+
 ## Installation
 
 Add this line to to your Gemfile:
